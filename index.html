@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="resources/logo_aquaMax11_ftrans.png">
+    <title>AquaMax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top text-center">
+        <div class="container">
+            <p class="navbar-text mx-auto">¡Despacho gratis a socios!</p>
+        </div>
+    </nav>
+
+
+
+<!-- Modal de Registro-->
+    <div class="modal fade" id="registroModal" data-bs-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="registroModalLabel" aria-hidden="true"> <!-- Es para que se fije el modal y solo se pueda salir con el X o el boton (data-bs-backdrop="static")-->
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registroModalLabel">Registro</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contacto">Contacto</label>
+                            <input type="text" class="form-control" id="contacto" placeholder="Ingresa tu número de contacto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email_registro">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email_registro" placeholder="Ingresa tu correo electrónico" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-registrarse">REGISTRARSE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Inicio de sesion
+    <div class="modal fade" id="loginModal" tabindex="-1" data-bs-backdrop="static" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña</label>
+                            <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-iniciarSesion">Iniciar sesión</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>                      -->
+                                        
+      
+
+     <!-- Logo -->
+     <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <img src="resources/logo banner0.2.png" alt="Logo de AquaMax" class="logo-img">
+            </div>
+            
+    <!-- Texto de presentación
+            <div class="col-md-8">
+                <div class="col-md-8">
+                    <p class="navbar-text navbar-brand mx-auto">
+                        Refresca tu verano junto a nosotros <br>
+                        con agua purificada de gran calidad <br>
+                        la recarga de 20 litros tiene un valor de $3.000 <br>
+                        recuerda que el despacho es gratuito a partir de 2 bidones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- enlaces -->
+    <div class="container mt-2">
+        <ul class="navbar navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Conócenos</a></li>
+            <li class="nav-item"><a class="nav-link btn-resaltarBoton" href="#">Iniciar Sesión</a></li>
+        </ul>
+
+    </div>
+
+    <!-- carousel-->
+    <div class="carousel-container">
+        <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE1"
+                    data-bs-slide-to="0" class="active" aria-current="true" 
+                    aria-label="Slide 1">               
+            </button>
+    
+            <button type="button" data-bs-target="#carouselE1"
+            data-bs-slide-to="1" 
+            aria-label="Slide 2">               
+            </button>
+    
+            <button type="button" data-bs-target="#carouselE1"
+            data-bs-slide-to="2"  
+            aria-label="Slide 3">               
+            </button>
+
+            <button type="button" data-bs-target="#carouselE1"
+            data-bs-slide-to="2"  
+            aria-label="Slide 4">               
+            </button>
+    
+        </div>
+    
+        <div class="carousel-inner" id="myCarousel">
+    
+            <div class="carousel-item active">
+                <img src="resources/fondo_3trans.png" class="d-block w-100" alt="auto1">
+                <div class="carousel-caption">                                 
+                </div>
+            </div>             
+            <div class="carousel-item">
+                <img src="resources/tomando_agua2.png" class="d-block w-100" alt="auto2">
+                <div class="carousel-caption">                 
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img src="resources/carousel_negroTransparente.png" class="d-block w-100" alt="auto3">
+                <div class="carousel-caption">                    
+                </div>
+            </div>           
+    
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>   
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE1" 
+                data-bs-slide="next">
+    
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    
+    </div>
+
+
+</div>
+
+
+
+        
+<!-- servicios-->
+    <section class="servives" id="servicesSection">
+
+        <div class="container">
+
+            <div class="row">
+                 <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-producto1 pb-2">
+                        <div class="card-body">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>    
+                            <button class="btn bg-primary text-white">Leer mas</button>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-producto2 pb-2">
+                        <div class="card-body">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br> 
+                            <button class="btn bg-primary text-white">Leer mas</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-primary text-center bg-producto3 pb-2">
+                        <div class="card-body">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br> 
+                            <button class="btn bg-primary text-white">Leer mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="section-icons" id="iconsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="box-icons">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-whatsapp"></i>
+                            <div class="ms-4">
+                                <h3>REGISTRARSE</h3>
+                                <p>Regístrate y obtiene tu descuento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="box-icons">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-truck"></i>
+                            <div class="ms-4">
+                                <h3>ENVÍO GRATIS</h3>
+                                <p>Valle Volcanes - Avenida Austra - Mirasol  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="box-icons">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-cash-coin"></i>
+                            <div class="ms-4">
+                                <h3>SOCIOS PYME</h3>
+                                <p>Tienes un almacen de barrio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="CONTACTO">
+        <div class="container mb-3 mb-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="secction-header text-center pb-2 pb-lg-5">
+                        <h2>Contacto</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <div class="d-flex justify-content-center">
+            <div class="col-12 col-md-12 col-lg-6 pt-4 pb-4">
+                <form action="#" class="bg-light p-4 m-auto shadow-sm">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="md-3">
+                                <input class="form-control" placeholder="Nombre" type="text" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="md-3">
+                                <input class="form-control" placeholder="Email" type="email" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="md-3">
+                                <textarea class="form-control" placeholder="Mensaje" rows="3" required></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-lg btn-block mt-3" type="button">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+
+            <div class="col-xs-12 col-md-6 col-lg-3">   
+                <p class="h3">AQUAMAX</p>
+                <p class="text-secondary">Avenida siempre viva #742</p>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+          <a
+            href="https://www.facebook.com/p/aquamaxcl-100066692253198/"
+            target="_blank"
+          >
+            <img
+              src="resources/communication_facebook_media_network_social_icon_123272.png" width="90px"
+              alt="Facebook"
+              href
+            />
+          </a>
+          <a href="https://www.instagram.com/aquamax.cl/" target="_blank">
+            <img src="resources/Instagram_icon-icons.com_66804.png" width="90px" alt="Instagram" />
+          </a>
+        </div>
+        <p>&copy; 2023 Aquamax</p>
+      </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Asegúrate de que jQuery y Bootstrap estén incluidos antes de este script 
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Agrega un evento de clic al elemento con el id "myCarousel"
+    $('#myCarousel').on('click', function() {
+        
+        // Abre el modal de registro al hacer clic en el carousel
+        $('#registroModal').modal('show');
+    });
+});
+</script>
+
+<script>
+    $(document).ready(function() {
+        // Agrega un evento de clic al elemento con el id "servicesSection"
+        $('#servicesSection').on('click', function() {
+            // Abre el modal de registro al hacer clic en la sección de servicios
+            $('#registroModal').modal('show');
+        });
+    });
+    </script>
+
+<script>
+    $(document).ready(function() {
+        // Agrega un evento de clic al elemento con el id "iconsSection"
+        $('#iconsSection').on('click', function() {
+            // Abre el modal de registro al hacer clic en la sección de iconos
+            $('#registroModal').modal('show');
+        });
+    });
+    </script>  -->
+
+
+</body>
+</html> 

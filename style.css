@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.form-register {
+    width: 400px;
+    background: url('resources/fondo_3trans.png'); /* Reemplaza con la ruta de tu imagen de fondo para la sección de registro */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.logo-img {
+
+    max-width: 300%;
+    height: auto;
+    display: block;
+    margin: 20px 0 0 -200px; /* Ajusta los valores según sea necesario */
+    
+}
+
+    /*max-width: 500px;
+    margin: 0 auto; /* Centrar horizontalmente 
+    margin-top: 40px; /* Ajusta según sea necesario 
+    }*/
+
+   /* max-width: 500px; /* Puedes ajustar este valor según tus necesidades 
+    margin: 0 auto; /* Esto centrará el contenedor en la página 
+    margin-top: 150px; /* Ajusta este valor según la separación deseada desde el navbar 
+    margin-left: -400px;
+}
+*/
+
+.col-md-8 {
+    margin-left: auto; /* Esto empujará la columna hacia el lado derecho */
+    margin-right: 20px; /* Ajusta este valor según sea necesario para el espacio deseado */
+    margin-top: 50px; /* Ajusta para que tenga la misma altura que el logo */
+
+    }
+
+.navbar-text {
+
+    /*text-align: justify !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    }*/
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    word-wrap: break-word;
+    color: #0080ff; /* Color azul claro, puedes ajustarlo según tus preferencias */
+
+}
+
+/* Ajusta el margen izquierdo para alejar el texto de presentación del logo */
+.navbar-brand {
+    margin-left: 20px; /* Ajusta según sea necesario */
+}
+
+.navbar-brand + .navbar-text {
+    margin-left: 20px; /* Ajusta este valor según sea necesario para el espacio deseado */
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin: 10px; fija el navbar le da distinto margen de distancia del inicio de */
+    /*width: 70%; es el largo del navbar*/
+    height: 45px; /* el grosor que se le puede dar a la barra completa del navbar*/
+}
+
+
+
+
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Cambiar a tu color de fondo del enlace REGISTRARSE 
+.btn-resaltarBoton {
+    background-color: #f00; /* Cambiar a tu color de fondo preferido 
+    color: #fff; /* Cambiar a tu color de texto preferido 
+    padding: 8px 16px; /* Ajustar el relleno según sea necesario 
+    border-radius: 4px; /* Ajustar el radio del borde según sea necesario 
+    /* Agrega más estilos según sea necesario 
+}
+
+/* Estilo adicional para cambiar el color del enlace cuando se le hace hover 
+.btn-resaltarBoton:hover {
+    background-color: #900; /* Cambiar a tu color de fondo preferido al pasar el ratón sobre el enlace 
+    /* Puedes agregar más estilos de hover según sea necesario 
+} */
+
+/*.btn-resaltarEnlaceLogin{
+    background-color: rgb(68, 0, 255); /* Cambiar a tu color de fondo preferido 
+    color: #fff; /* Cambiar a tu color de texto preferido 
+    padding: 8px 16px; /* Ajustar el relleno según sea necesario 
+    border-radius: 4px; /* Ajustar el radio del borde según sea necesario 
+    /* Agrega más estilos según sea necesario 
+}*/
+
+/* Estilo adicional para cambiar el color del enlace cuando se le hace hover */
+.btn-resaltarBoton:hover {
+    background-color: #900; /* Cambiar a tu color de fondo preferido al pasar el ratón sobre el enlace */
+    /* Puedes agregar más estilos de hover según sea necesario */
+}
+
+/* Estilos del botón iniciar sesión, dar separacion para abajo*/
+.btn-iniciarSesion {
+    margin-top: 20px; /* Ajusta el valor según sea necesario para la separación deseada */
+}
+
+/* Estilos del botón Registrarse, dar separacion para abajo*/
+.btn-registrarse {
+    margin-top: 20px; /* Ajusta el valor según sea necesario para la separación deseada */
+    background-color: #f00; /* Cambiar a tu color de fondo preferido */
+    color: #fff; /* Cambiar a tu color de texto preferido */
+    font-weight: bold; /* Otra personalización según tus preferencias */
+    /* Agrega más estilos según sea necesario */
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    background-image: url('fondo.jpg');
+}
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.form-register p {
+    height: 40px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+.carousel-item{
+    min-height: 400px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+.servives {
+    padding: 80px 0;
+}
+
+.bg-producto1 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/dispensador+2bidoness_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto2 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto3 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-icons i {
+    font-size: 40px;
+}
+
+.box-icons h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.product {
+    padding: 80px 0;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.banner {
+    padding: 50px 0;
+    margin-bottom: 80px;
+    background-color: #EAE5DF;
+}
+
+.banner h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:767px){
+
+    .carousel-item{
+        min-height: 500px;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carousel-caption {
+        bottom: 30px;
+    }
+
+    .carousel-caption h5 {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .servives {
+        padding: 30p;
+    }
+
+    .services {
+        padding: 30px 0 0 0;
+    }
+
+    .product {
+        margin-bottom: 30px 0 0 0;
+    }
+
+    .banner {
+        margin-bottom: 30px;
+    }
+
+}
+
+.CONTACTO {
+    margin-top: 50px; /* Ajusta el valor según sea necesario */
+}
+
+.secction-header {
+    margin-bottom: 0; /* Ajusta el valor según sea necesario */
+}
+
+
+
+/*Se modifica el carousel para que no ocupe el ancho de la pantalla*/
+.carousel-container {
+
+    max-width: 800px; /* Ajusta según sea necesario */
+    margin: auto; /* Centrar horizontalmente */
+    margin-top: 50px;
+    }
+
+   /* max-width: 500px; /* Puedes ajustar este valor según tus necesidades 
+    margin: auto; /* Esto centrará el contenedor en la página 
+    margin-top: 150px; /* Ajusta este valor según la separación deseada desde el navbar 
+    margin-right: 100px;
+    margin-left: -20px; se ajusta al lado derecho de la pantalla/*
+    
+}
+
+.carousel-item {
+    min-height: 280px; /* Puedes ajustar este valor según las necesidades */
+
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(resources/fondo\ footer\ .jpg); /* Fondo semitransparente */
+    padding: 20px;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5); /* Sombreado */
+    color: white;
+  }
+  .footer p {
+    color: #699c20;
+    font-weight: 200px;
+  }
+  
+  .footer-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
