@@ -1,0 +1,208 @@
+/*logo*/
+
+.logo-img {
+    max-width: 300%;
+    height: auto;
+    display: block;
+    margin: 20px 0 0 310px; /* Ajusta los valores según sea necesario */
+}
+
+/* Estilos para el navbar */
+.navegacion {
+    background-color: #007BFF; /* Color principal del navbar (azul) */
+    padding: 1rem;
+    text-align: center;
+}
+
+.navegacion__enlace {
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem; /* Tamaño de la fuente */
+    color: #FFFFFF; /* Color del texto (blanco) */
+    margin: 0 1.5rem; /* Espaciado entre enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Efecto de transición de color */
+}
+
+.navegacion__enlace:hover {
+    color: #55ACEE; /* Color del texto al pasar el ratón (celeste) */
+}
+
+.navegacion__enlace--activo {
+    color: #2E86C1; /* Color del texto del enlace activo (azul oscuro) */
+}
+
+
+
+
+
+/*productos*/
+
+
+
+.bg-producto4 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/dispensador+2bidoness_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.bg-producto4 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }
+
+.bg-producto5 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto5 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }
+
+.bg-producto6 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto6 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }
+
+    .bg-producto7 {
+        background-image: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(resources/dispensador+2bidoness_1.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+    
+    .bg-producto7 .card-body {
+        margin-top: 180px; /* Ajusta el valor según sea necesario */
+        }
+    
+    .bg-producto8 {
+        background-image: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(resources/promocion_aguaBidones3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bg-producto8 .card-body {
+        margin-top: 180px; /* Ajusta el valor según sea necesario */
+        }
+    
+    .bg-producto9 {
+        background-image: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(resources/promocion_aguaBidones2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bg-producto9 .card-body {
+        margin-top: 180px; /* Ajusta el valor según sea necesario */
+        }    
+
+.bg-producto10 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/dispensador+2bidoness_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.bg-producto10 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }
+
+.bg-producto11 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto11 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }
+
+.bg-producto12 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto12 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }
+
+.bg-producto13 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto13 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }        
+
+.bg-producto14 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto14 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }
+
+.bg-producto15 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(resources/promocion_aguaBidones2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-producto15 .card-body {
+    margin-top: 180px; /* Ajusta el valor según sea necesario */
+    }        
