@@ -84,9 +84,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*margin: 10px; fija el navbar le da distinto margen de distancia del inicio de */
+    margin: 5px; /*fija el navbar le da distinto margen de distancia del inicio de '*/
     /*width: 70%; es el largo del navbar*/
-    height: 45px; /* el grosor que se le puede dar a la barra completa del navbar*/
+    height: 30px; /* el grosor que se le puede dar a la barra completa del navbar*/
 }
 
 
@@ -119,10 +119,12 @@
     border-radius: 4px; /* Ajustar el radio del borde según sea necesario 
     /* Agrega más estilos según sea necesario 
 }*/
-
+.btn-resaltarBoton{
+    float: left;
+}
 /* Estilo adicional para cambiar el color del enlace cuando se le hace hover */
 .btn-resaltarBoton:hover {
-    background-color: #900; /* Cambiar a tu color de fondo preferido al pasar el ratón sobre el enlace */
+    background-color: #699c20; /* Cambiar a tu color de fondo preferido al pasar el ratón sobre el enlace */
     /* Puedes agregar más estilos de hover según sea necesario */
 }
 
@@ -134,7 +136,7 @@
 /* Estilos del botón Registrarse, dar separacion para abajo*/
 .btn-registrarse {
     margin-top: 20px; /* Ajusta el valor según sea necesario para la separación deseada */
-    background-color: #f00; /* Cambiar a tu color de fondo preferido */
+    background-color: #0080ff; /* Cambiar a tu color de fondo preferido */
     color: #fff; /* Cambiar a tu color de texto preferido */
     font-weight: bold; /* Otra personalización según tus preferencias */
     /* Agrega más estilos según sea necesario */
