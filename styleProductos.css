@@ -24,14 +24,30 @@
 }
 
 .navegacion__enlace:hover {
-    color: #55ACEE; /* Color del texto al pasar el ratón (celeste) */
+    color: #699c20; /* Color del texto al pasar el ratón (celeste) */
 }
 
 .navegacion__enlace--activo {
-    color: #2E86C1; /* Color del texto del enlace activo (azul oscuro) */
+    color: #FFFFFF; /* Color del texto del enlace activo (azul oscuro) */
 }
 
-
+/* Agrega estilos al botón del carrito en la barra de navegación */
+.btn-carrito {
+    float: right;
+    border: 2px solid white; /* Bordes anchos */
+    color: white; /* Texto blanco */
+    background-color: transparent; /* Fondo transparente */
+    padding: 8px 15px; /* Ajusta el relleno según sea necesario */
+    border-radius: 5px; /* Agrega bordes redondeados si deseas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  /* Cambia el estilo al pasar el ratón sobre el botón */
+  .btn-carrito:hover {
+    background-color: #699c20;
+    color: black; /* Cambia el color del texto al pasar el ratón */
+  }
+  
 
 
 
