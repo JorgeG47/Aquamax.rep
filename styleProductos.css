@@ -1,34 +1,93 @@
 /*logo*/
 
+.form-register {
+    width: 400px;
+    background: url('resources/fondo_3trans.png'); /* Reemplaza con la ruta de tu imagen de fondo para la sección de registro */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
 .logo-img {
+
     max-width: 300%;
     height: auto;
     display: block;
-    margin: 20px 0 0 310px; /* Ajusta los valores según sea necesario */
+    margin: 20px 0 0 -200px; /* Ajusta los valores según sea necesario */
+    
 }
 
-/* Estilos para el navbar */
-.navegacion {
-    background-color: #007BFF; /* Color principal del navbar (azul) */
-    padding: 1rem;
-    text-align: center;
+    /*max-width: 500px;
+    margin: 0 auto; /* Centrar horizontalmente 
+    margin-top: 40px; /* Ajusta según sea necesario 
+    }*/
+
+   /* max-width: 500px; /* Puedes ajustar este valor según tus necesidades 
+    margin: 0 auto; /* Esto centrará el contenedor en la página 
+    margin-top: 150px; /* Ajusta este valor según la separación deseada desde el navbar 
+    margin-left: -400px;
+}
+*/
+
+.col-md-8 {
+    margin-left: auto; /* Esto empujará la columna hacia el lado derecho */
+    margin-right: 20px; /* Ajusta este valor según sea necesario para el espacio deseado */
+    margin-top: 50px; /* Ajusta para que tenga la misma altura que el logo */
+
+    }
+
+.navbar-text {
+
+    /*text-align: justify !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    }*/
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    word-wrap: break-word;
+    color: #0080ff; /* Color azul claro, puedes ajustarlo según tus preferencias */
+
 }
 
-.navegacion__enlace {
-    font-family: 'Staatliches', cursive;
-    font-size: 2rem; /* Tamaño de la fuente */
-    color: #FFFFFF; /* Color del texto (blanco) */
-    margin: 0 1.5rem; /* Espaciado entre enlaces */
-    text-decoration: none;
-    transition: color 0.3s ease; /* Efecto de transición de color */
+/* Ajusta el margen izquierdo para alejar el texto de presentación del logo */
+.navbar-brand {
+    margin-left: 20px; /* Ajusta según sea necesario */
 }
 
-.navegacion__enlace:hover {
-    color: #699c20; /* Color del texto al pasar el ratón (celeste) */
+.navbar-brand + .navbar-text {
+    margin-left: 20px; /* Ajusta este valor según sea necesario para el espacio deseado */
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px; /*fija el navbar le da distinto margen de distancia del inicio de '*/
+    /*width: 70%; es el largo del navbar*/
+    height: 30px; /* el grosor que se le puede dar a la barra completa del navbar*/
 }
 
-.navegacion__enlace--activo {
-    color: #FFFFFF; /* Color del texto del enlace activo (azul oscuro) */
+
+
+
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
 }
 
 /* Agrega estilos al botón del carrito en la barra de navegación */
